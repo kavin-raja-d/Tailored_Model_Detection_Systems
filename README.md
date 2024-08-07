@@ -28,7 +28,7 @@ To install the necessary dependencies and set up the project, follow these steps
 2. **Create a virtual environment:**
     ```bash
     python -m venv venv
-    source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+    source venv/bin/activate   # On Windows use `venv\Scripts\activate` and
     ```
 
 3. **Install the required packages:**
