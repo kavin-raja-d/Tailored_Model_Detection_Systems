@@ -1,4 +1,4 @@
-# Customized-Face-Recognising-Deep-Model-Projec
+# Customized-Face-Recognising-Deep-Model-Project
 
 ## Table of Contents
 - [Overview](#overview)
