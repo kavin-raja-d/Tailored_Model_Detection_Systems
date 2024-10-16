@@ -52,19 +52,19 @@ Efficient real-time performance in both detection and tracking.
 ## Installation
 
 Clone the Repository:
-```
+```bash
 git clone https://github.com/yourusername/FaceRecognitionModel.git
 cd FaceRecognitionModel
 ```
 
 Create Virtual Environment:
-```
+```bash
 python -m venv venv
 source venv/bin/activate  # For Windows: venv\Scripts\activate
 ```
 
 Install Dependencies:
-```
+```bash
 pip install -r requirements.txt
 ```
 
@@ -72,7 +72,7 @@ pip install -r requirements.txt
 
 ### Image Collection:
 Capture images using a webcam via OpenCV.
-```
+```py
 import os
 import cv2
 import uuid
@@ -89,7 +89,7 @@ cv2.destroyAllWindows()
 
 ### Data Augmentation:
 Apply augmentations using Albumentations.
-```
+```py
 import albumentations as alb
 augmentor = alb.Compose([
     alb.RandomCrop(width=450, height=450),
@@ -100,7 +100,7 @@ augmentor = alb.Compose([
 
 ### Model Building:
 Use VGG16 for face detection and bounding box regression.
-```
+```py
 from tensorflow.keras.applications import VGG16
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Input, GlobalMaxPooling2D, Dense
@@ -125,7 +125,7 @@ def build_model():
 
 ### Model Training and Compilation:
 Compile the model using custom loss functions for both classification and bounding box regression.
-```
+```py
 facetracker = FaceTracker(build_model())
 facetracker.compile(
     opt=tf.keras.optimizers.Adam(), 
@@ -139,5 +139,3 @@ facetracker.compile(
 ## Output:
 The project demonstrated real-world object detection capabilities by leveraging a webcam to capture live video feeds. Utilizing a deep learning model trained on a diverse dataset, the system identified and classified objects in real time.
 ![{70F4961A-500D-43E7-84B0-267AFDAF6584}](https://github.com/user-attachments/assets/20479665-2c00-44d9-ae89-05a589e4b618)
-
-## Result:
