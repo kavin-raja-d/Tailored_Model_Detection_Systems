@@ -148,14 +148,14 @@ The project achieved high accuracy in real-time face detection, with robust perf
 ## REFERENCE:
 
 ### Website Link : 
-https://www.tensorflow.org/tutorials/images/cnn
-https://pjreddie.com/darknet/yolo/
-https://paperswithcode.com/method/ssd
-https://www.ibm.com/topics/machine-learning-pipeline
+https://www.tensorflow.org/tutorials/images/cnn</BR>
+https://pjreddie.com/darknet/yolo/</BR>
+https://paperswithcode.com/method/ssd</BR>
+https://www.ibm.com/topics/machine-learning-pipeline</BR>
 
 ### Book Reference: 
-Title: Deep Learning for Computer Vision with Python
-Author: Adrian Rosebrock
-Publisher: PyImageSearch
-Publication Year: 2017
-ISBN: 978-1547101185
+Title: Deep Learning for Computer Vision with Python</BR>
+Author: Adrian Rosebrock</BR>
+Publisher: PyImageSearch</BR>
+Publication Year: 2017</BR>
+ISBN: 978-1547101185</BR>
