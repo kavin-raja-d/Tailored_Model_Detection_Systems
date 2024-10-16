@@ -1,9 +1,9 @@
 # Customized-Face-Recognising-Deep-Model-Project
 
-## Introduction:
+## INTRODUCTION:
 The field of computer vision has seen significant advancements, particularly in object detection and facial recognition tasks. Among these, face detection is a crucial application with broad use cases in security systems, identity verification, and human-computer interaction. This project focuses on developing a tailored face detection system that leverages machine learning algorithms, deep learning architectures, and computer vision libraries like OpenCV. The model is trained from scratch, offering flexibility for adaptation to specific datasets and use cases, including detecting objects beyond faces if required.
 
-## Scope of Project:
+## SCOPE OF PROJECT:
 
 ### Data Preprocessing:
 Acquisition of a specialized dataset, including images under diverse lighting conditions.
@@ -29,7 +29,7 @@ Model performance is evaluated using Precision, Recall, F1 Score, and Intersecti
 Variability in lighting, pose, occlusion, and expression.
 Custom object detection beyond faces with retraining on relevant datasets.
 
-## Features : 
+## FEATURES: 
 
 ### Real-time Face Detection:
 Detect faces via webcam in real-time.
@@ -49,7 +49,7 @@ Can be deployed in various environments, including desktop or cloud-based system
 ### Optimized for Low Latency:
 Efficient real-time performance in both detection and tracking.
 
-## Installation
+## INSTALLATION:
 
 Clone the Repository:
 ```bash
@@ -68,7 +68,7 @@ Install Dependencies:
 pip install -r requirements.txt
 ```
 
-## Usage :
+## USAGE:
 
 ### Image Collection:
 Capture images using a webcam via OpenCV.
@@ -133,9 +133,29 @@ facetracker.compile(
     localizationloss=localization_loss
 )
 ```
-## System Architecture:
+
+## SYSTEM ARCHITECTURE:
 ![{0E17491B-3CE6-4C3B-9DC2-CB5B166B5436}](https://github.com/user-attachments/assets/4aa53433-5e31-4b2a-bab8-849ec3b61907)
 
-## Output:
+## OUTPUT:
 The project demonstrated real-world object detection capabilities by leveraging a webcam to capture live video feeds. Utilizing a deep learning model trained on a diverse dataset, the system identified and classified objects in real time.
+
 ![{70F4961A-500D-43E7-84B0-267AFDAF6584}](https://github.com/user-attachments/assets/20479665-2c00-44d9-ae89-05a589e4b618)
+
+## RESULT:
+The project achieved high accuracy in real-time face detection, with robust performance under varying conditions like lighting, pose, and occlusion. Precision, recall, and IoU metrics demonstrated effective face localization. The model successfully minimized false positives and negatives, delivering reliable results for both image classification and bounding box predictions.
+
+## REFERENCE:
+
+### Website Link : 
+https://www.tensorflow.org/tutorials/images/cnn
+https://pjreddie.com/darknet/yolo/
+https://paperswithcode.com/method/ssd
+https://www.ibm.com/topics/machine-learning-pipeline
+
+### Book Reference: 
+Title: Deep Learning for Computer Vision with Python
+Author: Adrian Rosebrock
+Publisher: PyImageSearch
+Publication Year: 2017
+ISBN: 978-1547101185
